@@ -38,7 +38,7 @@ This project visualizes the post-secondary destinations of my high school alumni
 - **School Names May Not Be Unique:** Some institutions have multiple campuses or locations (e.g., Culinary Institute of America in Texas and New York). The data and map may not distinguish between these, and geocoding may place markers at only one location.
 - **Geocoding Accuracy:** Automated geocoding may not always find the correct campus, especially for schools with similar names or multiple branches.
 
-- ## What I Learned
+## What I Learned
 
 - Gained experience with pandas for reading, modifying, and exporting CSV data.
 - Practiced creating bar charts and visualizing data distributions with matplotlib.
