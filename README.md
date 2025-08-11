@@ -1,4 +1,4 @@
-This project visualizes the post-secondary destinations of high school alumni using Python and interactive maps.
+This project visualizes the post-secondary destinations of my high school alumni using Python and interactive maps.
 
 ## Files
 
