@@ -28,7 +28,7 @@ This project visualizes the post-secondary destinations of my high school alumni
 1. Open [`HS_alum_school_stats.ipynb`](HS_alum_school_stats.ipynb) in Jupyter.
 2. If you have your own CSV file with columns `Name` and `School`, replace `name_and_school.csv` with your file.
 3. Run all cells to process your data and generate the map.
-4. Open [`schools_map.html`](schools_map.html) in your browser to view the interactive map. (You can also view it live right now using this link [Interactive Map](https://glittery-moxie-b8a8a7.netlify.app/))
+4. Open [`schools_map.html`](schools_map.html) in your browser to view the interactive map. (You can also view it live right now using this link here:[Interactive Map](https://glittery-moxie-b8a8a7.netlify.app/))
    
 
 *Note: Your CSV must have columns named `Name` and `School` for the notebook to work correctly. You can also comment out the anonymizer in the notebook *
