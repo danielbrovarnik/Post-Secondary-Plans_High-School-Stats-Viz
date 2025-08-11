@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e62ac4190fb65f02495458eb186107f9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e62ac4190fb65f02495458eb186107f9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e62ac4190fb65f02495458eb186107f9 = L.map(
+                "map_e62ac4190fb65f02495458eb186107f9",
+                {
+                    center: [38.82105804669642, -78.02377236687501],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4822974c9ec5c2a1c3852bbef439b7b4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4822974c9ec5c2a1c3852bbef439b7b4.addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            var circle_marker_a334d3fe5b7351913eedb63698e9755a = L.circleMarker(
+                [40.7197638, -73.6519719],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_a334d3fe5b7351913eedb63698e9755a.bindTooltip(
+                `<div>
+                     Adelphi University (27 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2840ad0fda72f67270b79b7c540cb1dc = L.circleMarker(
+                [40.8094864, -73.963551],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_2840ad0fda72f67270b79b7c540cb1dc.bindTooltip(
+                `<div>
+                     Barnard College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_81e6a40ee25b9e33e2f1f3b6f5fe174b = L.circleMarker(
+                [28.8165, -81.8815],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_81e6a40ee25b9e33e2f1f3b6f5fe174b.bindTooltip(
+                `<div>
+                     Beacon College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c7c8fa98cdc04f14addeddbd24dda44b = L.circleMarker(
+                [36.1327833, -86.7926578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_c7c8fa98cdc04f14addeddbd24dda44b.bindTooltip(
+                `<div>
+                     Belmont University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9a1f47bde6ec435fc5b86d10d0d7a18 = L.circleMarker(
+                [42.3834189, -71.2225864],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_f9a1f47bde6ec435fc5b86d10d0d7a18.bindTooltip(
+                `<div>
+                     Bentley University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eab37589a264e28154d8f8119627fe14 = L.circleMarker(
+                [42.0877998, -75.9706607],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_eab37589a264e28154d8f8119627fe14.bindTooltip(
+                `<div>
+                     Binghamton University (9 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a6ece22a3f516699916397a57016d2c0 = L.circleMarker(
+                [42.3504215, -71.1032247],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_a6ece22a3f516699916397a57016d2c0.bindTooltip(
+                `<div>
+                     Boston University (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8b39b84cecd96b8952752fdf2089889 = L.circleMarker(
+                [41.377036, -83.637531],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e8b39b84cecd96b8952752fdf2089889.bindTooltip(
+                `<div>
+                     Bowling Green State University-Main Campus (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e02a376692fa4089709198081b3d4c04 = L.circleMarker(
+                [35.3074623, -120.6646483],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e02a376692fa4089709198081b3d4c04.bindTooltip(
+                `<div>
+                     California Polytechnic State University-San Luis Obispo (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_617dd960ac819647abee6ccaae13147b = L.circleMarker(
+                [40.063561, -79.884237],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_617dd960ac819647abee6ccaae13147b.bindTooltip(
+                `<div>
+                     California University of Pennsylvania (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fed3607695be0fbcda326db3add3a8f1 = L.circleMarker(
+                [34.6686915, -82.8374348],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_fed3607695be0fbcda326db3add3a8f1.bindTooltip(
+                `<div>
+                     Clemson University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_42bb795a0da90bd38e70a23df9a9b6b8 = L.circleMarker(
+                [41.8742404, -87.6247913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_42bb795a0da90bd38e70a23df9a9b6b8.bindTooltip(
+                `<div>
+                     Columbia College Chicago (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_170545e20cfd945d71be6c9cb3c2bb5e = L.circleMarker(
+                [29.4431444, -98.4803338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_170545e20cfd945d71be6c9cb3c2bb5e.bindTooltip(
+                `<div>
+                     Culinary Institute of America (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1576c950511e9ab7bfa69a15ac4a0c32 = L.circleMarker(
+                [40.6315, -73.9523],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_1576c950511e9ab7bfa69a15ac4a0c32.bindTooltip(
+                `<div>
+                     CUNY Brooklyn College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_270cd6863b0612ba9a387850a43a26c7 = L.circleMarker(
+                [40.737004, -73.8251979],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_270cd6863b0612ba9a387850a43a26c7.bindTooltip(
+                `<div>
+                     CUNY Queens College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e071c922096b77ba6299c86aa1099ab6 = L.circleMarker(
+                [36.0001557, -78.9442297],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e071c922096b77ba6299c86aa1099ab6.bindTooltip(
+                `<div>
+                     Duke University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf4d46148eba7704c8981fec1c21c26e = L.circleMarker(
+                [35.6328512, -77.4852672],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_bf4d46148eba7704c8981fec1c21c26e.bindTooltip(
+                `<div>
+                     East Carolina University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c6ad369ab2b99a777d7e68ee7c74531 = L.circleMarker(
+                [27.7142658, -82.6855432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_9c6ad369ab2b99a777d7e68ee7c74531.bindTooltip(
+                `<div>
+                     Eckerd College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c7e8b0489e1c2620f69879d246a270b = L.circleMarker(
+                [29.6672087, -95.2875968],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_3c7e8b0489e1c2620f69879d246a270b.bindTooltip(
+                `<div>
+                     Electrical Training Center (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_407257865cf111d716c051175233b18e = L.circleMarker(
+                [40.7539201, -73.4285044],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_407257865cf111d716c051175233b18e.bindTooltip(
+                `<div>
+                     Farmingdale State College (18 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7ffb9ca8d41f91918d85b5b6a8b9972d = L.circleMarker(
+                [40.7471159, -73.9946024],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_7ffb9ca8d41f91918d85b5b6a8b9972d.bindTooltip(
+                `<div>
+                     Fashion Institute of Technology (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa547ce6521b25928ee87cc3a88fc36e = L.circleMarker(
+                [26.1194037, -80.1416919],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_fa547ce6521b25928ee87cc3a88fc36e.bindTooltip(
+                `<div>
+                     Florida Atlantic University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_af18db5f6f87421dc7684cf5e3015868 = L.circleMarker(
+                [30.442216, -84.297453],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_af18db5f6f87421dc7684cf5e3015868.bindTooltip(
+                `<div>
+                     Florida State University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b7459bea4d7a21c1361cb50fc528e8c = L.circleMarker(
+                [40.8617344, -73.8860317],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_7b7459bea4d7a21c1361cb50fc528e8c.bindTooltip(
+                `<div>
+                     Fordham University (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d246134de6a34da50dd1ed9e6eeeb74 = L.circleMarker(
+                [38.9089393, -77.0745796],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_5d246134de6a34da50dd1ed9e6eeeb74.bindTooltip(
+                `<div>
+                     Georgetown University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33a70f4ddac09e135e3c33e105a4f051 = L.circleMarker(
+                [42.4599781, -75.0714688],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_33a70f4ddac09e135e3c33e105a4f051.bindTooltip(
+                `<div>
+                     Hartwick College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8ac760eab3d4c79e5ece187d0ab2375 = L.circleMarker(
+                [35.9720859, -79.9936582],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_a8ac760eab3d4c79e5ece187d0ab2375.bindTooltip(
+                `<div>
+                     High Point University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f591b67dc2da5aabb0e7db689dee49e2 = L.circleMarker(
+                [42.8570498, -76.9871974],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_f591b67dc2da5aabb0e7db689dee49e2.bindTooltip(
+                `<div>
+                     Hobart William Smith Colleges (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_763c3cd0e669a5d92586771d14f01b46 = L.circleMarker(
+                [40.7169083, -73.6000225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_763c3cd0e669a5d92586771d14f01b46.bindTooltip(
+                `<div>
+                     Hofstra University (7 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aff43298e830d79c0860fcb36fcb54aa = L.circleMarker(
+                [39.1802358, -86.5093526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_aff43298e830d79c0860fcb36fcb54aa.bindTooltip(
+                `<div>
+                     Indiana University-Bloomington (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd24d82da98fb1fad517fa9f9550096c = L.circleMarker(
+                [40.9252494, -73.7882666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_bd24d82da98fb1fad517fa9f9550096c.bindTooltip(
+                `<div>
+                     Iona College (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_58614c0d980a6be443996b1465b1ae0d = L.circleMarker(
+                [42.4197035, -76.4983348],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_58614c0d980a6be443996b1465b1ae0d.bindTooltip(
+                `<div>
+                     Ithaca College (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8278518df4af8a75d528c1dc75bc5cab = L.circleMarker(
+                [30.3537227, -81.6073061],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_8278518df4af8a75d528c1dc75bc5cab.bindTooltip(
+                `<div>
+                     Jacksonville University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b629e8f60a940408a4dcd26f0c0e7e6d = L.circleMarker(
+                [39.94911, -75.15781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_b629e8f60a940408a4dcd26f0c0e7e6d.bindTooltip(
+                `<div>
+                     Jefferson (Philadelphia University + Thomas Jefferson University) (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_153b26b11b2ea2a3a7c1aca07086c9a6 = L.circleMarker(
+                [41.7882362, -71.3903871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_153b26b11b2ea2a3a7c1aca07086c9a6.bindTooltip(
+                `<div>
+                     Johnson & Wales University-Providence (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e7e7221495d440c597e4fe99356d14b = L.circleMarker(
+                [26.7146194, -80.1065594],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_0e7e7221495d440c597e4fe99356d14b.bindTooltip(
+                `<div>
+                     Keiser University, West Palm Beach (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00acd598220e0f16101f04dacc90ca41 = L.circleMarker(
+                [40.5098059, -75.7809883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_00acd598220e0f16101f04dacc90ca41.bindTooltip(
+                `<div>
+                     Kutztown University of Pennsylvania (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_49ebece364931de943543a12658edb90 = L.circleMarker(
+                [40.6068028, -75.3782488],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_49ebece364931de943543a12658edb90.bindTooltip(
+                `<div>
+                     Lehigh University (5 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_19a3e80a5c1382805f0cbf480e8b1dcc = L.circleMarker(
+                [37.3539466, -79.1531533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_19a3e80a5c1382805f0cbf480e8b1dcc.bindTooltip(
+                `<div>
+                     Liberty University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0dc6a4b5bd2ff07eb571825ff571564 = L.circleMarker(
+                [40.6911022, -73.9803965],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_c0dc6a4b5bd2ff07eb571825ff571564.bindTooltip(
+                `<div>
+                     Long Island University (5 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b730ad4cec7fa1b9198951414ee47ed8 = L.circleMarker(
+                [30.4062005, -91.1854129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_b730ad4cec7fa1b9198951414ee47ed8.bindTooltip(
+                `<div>
+                     Louisiana State University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e69d269ec87aa5e272e017277439bb6a = L.circleMarker(
+                [40.8874403, -73.9043147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e69d269ec87aa5e272e017277439bb6a.bindTooltip(
+                `<div>
+                     Manhattan College (5 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bfd4ba0c1ae7da4eeeb2bd03d84be76 = L.circleMarker(
+                [41.7015, -73.9204],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_6bfd4ba0c1ae7da4eeeb2bd03d84be76.bindTooltip(
+                `<div>
+                     Marist College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f7fe23712dee33530811681747f3b36 = L.circleMarker(
+                [41.4345694, -75.6325017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_0f7fe23712dee33530811681747f3b36.bindTooltip(
+                `<div>
+                     Marywood University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_05a1e16d80e72718f6615c35a06472aa = L.circleMarker(
+                [39.9979459, -76.3509605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_05a1e16d80e72718f6615c35a06472aa.bindTooltip(
+                `<div>
+                     Millersville University of Pennsylvania (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_56ef70459fec59f4481e9af002c23948 = L.circleMarker(
+                [40.686594, -73.6246021],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_56ef70459fec59f4481e9af002c23948.bindTooltip(
+                `<div>
+                     Molloy College (18 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a864011c8371a2ed9372888f247104b5 = L.circleMarker(
+                [40.2794106, -74.0068022],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_a864011c8371a2ed9372888f247104b5.bindTooltip(
+                `<div>
+                     Monmouth University (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1e126f78ac62a2b96cb771346150551b = L.circleMarker(
+                [40.7299983, -73.5930089],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_1e126f78ac62a2b96cb771346150551b.bindTooltip(
+                `<div>
+                     Nassau Community College (66 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1bc1edad583f5789d106e631dd222b9 = L.circleMarker(
+                [32.076352, -96.5009561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_d1bc1edad583f5789d106e631dd222b9.bindTooltip(
+                `<div>
+                     Navarro College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0fa69c6342f8e5325a91d309bfc65372 = L.circleMarker(
+                [40.807959, -73.6062688],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_0fa69c6342f8e5325a91d309bfc65372.bindTooltip(
+                `<div>
+                     New York Institute of Technology (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f609c4fc6b96f449c6e722003ee2042 = L.circleMarker(
+                [40.7292053, -73.9950148],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_4f609c4fc6b96f449c6e722003ee2042.bindTooltip(
+                `<div>
+                     New York University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c7f8565d3e4418e32be7b8063c51cd07 = L.circleMarker(
+                [42.3351052, -71.0892579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_c7f8565d3e4418e32be7b8063c51cd07.bindTooltip(
+                `<div>
+                     Northeastern University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d68ea7346b10f301013bac416e80f81 = L.circleMarker(
+                [26.0788018, -80.2435108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_0d68ea7346b10f301013bac416e80f81.bindTooltip(
+                `<div>
+                     Nova Southeastern University (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc94f23352f1bcd14368af9ef73816e3 = L.circleMarker(
+                [41.2957177, -82.2215696],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_cc94f23352f1bcd14368af9ef73816e3.bindTooltip(
+                `<div>
+                     Oberlin College (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aec921fd0bee96054893f62fd5a43660 = L.circleMarker(
+                [39.99949343, -83.00879179],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_aec921fd0bee96054893f62fd5a43660.bindTooltip(
+                `<div>
+                     Ohio State University-Main Campus (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_016736d36ce552d029f3fb6e01ad75e3 = L.circleMarker(
+                [40.7111164, -74.0048044],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_016736d36ce552d029f3fb6e01ad75e3.bindTooltip(
+                `<div>
+                     Pace University (7 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_70711e351a7da8312a13eb9055faa484 = L.circleMarker(
+                [40.80073, -77.86],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_70711e351a7da8312a13eb9055faa484.bindTooltip(
+                `<div>
+                     Pennsylvania State University-Main Campus (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c69692a5e27e7a245f1a630ea08495a3 = L.circleMarker(
+                [41.8442938, -71.4354886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_c69692a5e27e7a245f1a630ea08495a3.bindTooltip(
+                `<div>
+                     Providence College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bfe9a1e55843cf82bed5712fec4a9dcd = L.circleMarker(
+                [40.7560552, -73.7574871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_bfe9a1e55843cf82bed5712fec4a9dcd.bindTooltip(
+                `<div>
+                     Queensborough Community College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff8968df83ac5fc3c34e9b39d826c9c7 = L.circleMarker(
+                [43.0826701, -77.6729322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_ff8968df83ac5fc3c34e9b39d826c9c7.bindTooltip(
+                `<div>
+                     Rochester Institute of Technology (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_af0bc0b01330bf34e42397c02ac88e7d = L.circleMarker(
+                [39.7103526, -75.1193267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_af0bc0b01330bf34e42397c02ac88e7d.bindTooltip(
+                `<div>
+                     Rowan University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_551492d55b3b96da351dd2d6817e5d3f = L.circleMarker(
+                [40.4929778, -74.4451081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_551492d55b3b96da351dd2d6817e5d3f.bindTooltip(
+                `<div>
+                     Rutgers University-New Brunswick (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bd6bc4bec4f219a7d106f220b71c948 = L.circleMarker(
+                [41.2225974, -73.2444673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_6bd6bc4bec4f219a7d106f220b71c948.bindTooltip(
+                `<div>
+                     Sacred Heart University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aaa04821b43d788147583e336dcabe63 = L.circleMarker(
+                [42.7192659, -73.751192],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_aaa04821b43d788147583e336dcabe63.bindTooltip(
+                `<div>
+                     Siena College (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d1cc0b69d4091bd04a56df87c46ad2e = L.circleMarker(
+                [40.72, -73.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_2d1cc0b69d4091bd04a56df87c46ad2e.bindTooltip(
+                `<div>
+                     St John's University-New York (14 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16b150d82d722e005a6004a137308fb2 = L.circleMarker(
+                [41.7385034, -74.0857893],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_16b150d82d722e005a6004a137308fb2.bindTooltip(
+                `<div>
+                     State University of New York at New Paltz (9 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d70233e6a0657d0b42655573c4131793 = L.circleMarker(
+                [29.0365347, -81.3005411],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_d70233e6a0657d0b42655573c4131793.bindTooltip(
+                `<div>
+                     Stetson University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75c79aebccfc2b113d96a83145f8fa48 = L.circleMarker(
+                [40.7448096, -74.0252392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_75c79aebccfc2b113d96a83145f8fa48.bindTooltip(
+                `<div>
+                     Stevens Institute of Technology (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ed9ceae802456a54b5668f8831ecf39a = L.circleMarker(
+                [40.9090809, -73.1205518],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_ed9ceae802456a54b5668f8831ecf39a.bindTooltip(
+                `<div>
+                     Stony Brook University (9 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4dc30ba324379cc26b22c5ca04164097 = L.circleMarker(
+                [40.8473013, -73.0558279],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_4dc30ba324379cc26b22c5ca04164097.bindTooltip(
+                `<div>
+                     Suffolk County Community College (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ee8a20bf234d233356566c8ca1a481b = L.circleMarker(
+                [42.6864269, -73.8157255],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_8ee8a20bf234d233356566c8ca1a481b.bindTooltip(
+                `<div>
+                     SUNY at Albany (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fc479600e86dc2a438ce6bc0d55c5c3 = L.circleMarker(
+                [42.802701, -77.82],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_3fc479600e86dc2a438ce6bc0d55c5c3.bindTooltip(
+                `<div>
+                     SUNY College at Geneseo (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ff7c9ec4237a08c92ae11129267bea2 = L.circleMarker(
+                [40.7965621, -73.5730895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_1ff7c9ec4237a08c92ae11129267bea2.bindTooltip(
+                `<div>
+                     SUNY College at Old Westbury (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1551e3bcbeb7f8efe868f3aa342cb399 = L.circleMarker(
+                [43.4536747, -76.534784],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_1551e3bcbeb7f8efe868f3aa342cb399.bindTooltip(
+                `<div>
+                     SUNY College at Oswego (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45b81086f7167506d6760389f50fc6b8 = L.circleMarker(
+                [44.695365, -73.458593],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_45b81086f7167506d6760389f50fc6b8.bindTooltip(
+                `<div>
+                     SUNY College at Plattsburgh (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d2effde7b73fe6e8f0ef57a36a0596c = L.circleMarker(
+                [42.672534, -74.498258],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_3d2effde7b73fe6e8f0ef57a36a0596c.bindTooltip(
+                `<div>
+                     SUNY College of Agriculture and Technology at Cobleskill (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9474c45a228dcb1aeac07b74d9c4174c = L.circleMarker(
+                [43.03, -76.14],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_9474c45a228dcb1aeac07b74d9c4174c.bindTooltip(
+                `<div>
+                     SUNY College of Environmental Science and Forestry (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d9b97c3525337a707e2a5427dcf3cbfe = L.circleMarker(
+                [42.255262, -77.794632],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_d9b97c3525337a707e2a5427dcf3cbfe.bindTooltip(
+                `<div>
+                     SUNY College of Technology at Alfred (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2bfa5d2b8aa65b2e6353e530c9e0c7d3 = L.circleMarker(
+                [42.269859, -74.924612],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_2bfa5d2b8aa65b2e6353e530c9e0c7d3.bindTooltip(
+                `<div>
+                     SUNY College of Technology at Delhi (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_534af671f59656181be2c370f5eda652 = L.circleMarker(
+                [42.5927112, -76.1961728],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_534af671f59656181be2c370f5eda652.bindTooltip(
+                `<div>
+                     SUNY Cortland (7 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c0d6999d70868c3fd2a415930f907fe = L.circleMarker(
+                [40.8070978, -73.7957328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_2c0d6999d70868c3fd2a415930f907fe.bindTooltip(
+                `<div>
+                     SUNY Maritime College (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc70c1e66eb3209e92bab4d1929e8467 = L.circleMarker(
+                [42.4720574, -75.0628514],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_dc70c1e66eb3209e92bab4d1929e8467.bindTooltip(
+                `<div>
+                     SUNY Oneonta (8 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3582d128bd63d9a57f042c4cb3260620 = L.circleMarker(
+                [42.73, -73.69],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_3582d128bd63d9a57f042c4cb3260620.bindTooltip(
+                `<div>
+                     The Sage Colleges (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8cae46d17a3edc2624322021be98a38 = L.circleMarker(
+                [27.95, -82.47],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e8cae46d17a3edc2624322021be98a38.bindTooltip(
+                `<div>
+                     The University of Tampa (8 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e6852fad13678fdd889a2d6e0d60a27 = L.circleMarker(
+                [35.956596, -83.927499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_4e6852fad13678fdd889a2d6e0d60a27.bindTooltip(
+                `<div>
+                     The University of Tennessee-Knoxville (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca38bfd352ca5c44756ff08972d4c85e = L.circleMarker(
+                [39.3869768, -76.6185804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_ca38bfd352ca5c44756ff08972d4c85e.bindTooltip(
+                `<div>
+                     Towson University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c9b7c24ff25783725751c8f78db33f69 = L.circleMarker(
+                [41.37, -72.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_c9b7c24ff25783725751c8f78db33f69.bindTooltip(
+                `<div>
+                     United States Coast Guard Academy (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c00ddd133c8b7c2520f957c4ff7a771 = L.circleMarker(
+                [43.0019863, -78.7859649],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_2c00ddd133c8b7c2520f957c4ff7a771.bindTooltip(
+                `<div>
+                     University at Buffalo (14 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d68700fc97e12acd0ef8878eb3a9fc3 = L.circleMarker(
+                [28.599591, -81.1971284],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_5d68700fc97e12acd0ef8878eb3a9fc3.bindTooltip(
+                `<div>
+                     University of Central Florida (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0a8e545de75cc6f8636f1612a043bf9 = L.circleMarker(
+                [39.6803338, -75.7530749],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e0a8e545de75cc6f8636f1612a043bf9.bindTooltip(
+                `<div>
+                     University of Delaware (6 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a202bf514d0e5fcb1950f0157cceae9 = L.circleMarker(
+                [29.6411884, -82.3562296],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_2a202bf514d0e5fcb1950f0157cceae9.bindTooltip(
+                `<div>
+                     University of Florida (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a06c868c9ddc562074f9069017c7e53 = L.circleMarker(
+                [33.9404278, -83.373049],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_3a06c868c9ddc562074f9069017c7e53.bindTooltip(
+                `<div>
+                     University of Georgia (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_835d7d6a40995d97d9a6f3e832ea494e = L.circleMarker(
+                [41.8002648, -72.7141205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_835d7d6a40995d97d9a6f3e832ea494e.bindTooltip(
+                `<div>
+                     University of Hartford (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6748c8edff554fa378bf01a3d5ff652a = L.circleMarker(
+                [44.9015188, -68.6617222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_6748c8edff554fa378bf01a3d5ff652a.bindTooltip(
+                `<div>
+                     University of Maine (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f49a508705d69e0e8da9581549a28a84 = L.circleMarker(
+                [38.9904124, -76.9438586],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_f49a508705d69e0e8da9581549a28a84.bindTooltip(
+                `<div>
+                     University of Maryland-College Park (2 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f8e3c36ef58385e6f6db204324f88a4 = L.circleMarker(
+                [42.3875741, -72.5299209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_6f8e3c36ef58385e6f6db204324f88a4.bindTooltip(
+                `<div>
+                     University of Massachusetts-Amherst (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6380e91d419841fd8d1cba6723b4e94b = L.circleMarker(
+                [25.7172724, -80.2787069],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_6380e91d419841fd8d1cba6723b4e94b.bindTooltip(
+                `<div>
+                     University of Miami (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e649be99c78af489553923bccaac0a03 = L.circleMarker(
+                [34.3646125, -89.5396349],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e649be99c78af489553923bccaac0a03.bindTooltip(
+                `<div>
+                     University of Mississippi (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5604575632ea96dc135468335856e45b = L.circleMarker(
+                [41.4875094, -71.5343138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_5604575632ea96dc135468335856e45b.bindTooltip(
+                `<div>
+                     University of Rhode Island (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66b776d23c35164150b3987f52da9a8a = L.circleMarker(
+                [41.4064465, -75.6577499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_66b776d23c35164150b3987f52da9a8a.bindTooltip(
+                `<div>
+                     University of Scranton (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_edf7f10bf914dcad1eb099a65ae0af2a = L.circleMarker(
+                [33.9928841, -81.0268676],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_edf7f10bf914dcad1eb099a65ae0af2a.bindTooltip(
+                `<div>
+                     University of South Carolina-Columbia (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ead2ddc3a726e2041e9487db103a999 = L.circleMarker(
+                [44.4737365, -73.1941468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_9ead2ddc3a726e2041e9487db103a999.bindTooltip(
+                `<div>
+                     University of Vermont (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2878f9dc2fd372f23dde35d7654d893 = L.circleMarker(
+                [43.0802745, -89.4309587],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_d2878f9dc2fd372f23dde35d7654d893.bindTooltip(
+                `<div>
+                     University of Wisconsin-Madison (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e7b4c0248b1664c90111b346aa313e5e = L.circleMarker(
+                [40.1954088, -75.4553199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_e7b4c0248b1664c90111b346aa313e5e.bindTooltip(
+                `<div>
+                     Ursinus College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52a99e81c19432feb392ba1dc726af98 = L.circleMarker(
+                [36.1438011, -86.8028189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_52a99e81c19432feb392ba1dc726af98.bindTooltip(
+                `<div>
+                     Vanderbilt University (4 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_60695bb38f87e7459ac4ed977c5faf21 = L.circleMarker(
+                [37.2219268, -80.4272818],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_60695bb38f87e7459ac4ed977c5faf21.bindTooltip(
+                `<div>
+                     Virginia Polytechnic Institute and State University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c25aa7db621d84378c5150e292e1c4dd = L.circleMarker(
+                [35.6134478, -82.4406782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_c25aa7db621d84378c5150e292e1c4dd.bindTooltip(
+                `<div>
+                     Warren Wilson College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff5c8fc3b0bab9be9c41d08c41bbfa66 = L.circleMarker(
+                [39.6348397, -79.9542095],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_ff5c8fc3b0bab9be9c41d08c41bbfa66.bindTooltip(
+                `<div>
+                     West Virginia University (3 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_811d1949d8811516eaca4703dc4700c3 = L.circleMarker(
+                [41.9670817, -71.1830932],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_811d1949d8811516eaca4703dc4700c3.bindTooltip(
+                `<div>
+                     Wheaton College (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d178347ac9c53bedabb17e627a1ccf0c = L.circleMarker(
+                [39.8606395, -75.3565932],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_d178347ac9c53bedabb17e627a1ccf0c.bindTooltip(
+                `<div>
+                     Widener University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc8f68b889ac316047bef5c7426e602d = L.circleMarker(
+                [41.2444276, -75.8902922],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_cc8f68b889ac316047bef5c7426e602d.bindTooltip(
+                `<div>
+                     Wilkes University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eec0ddef80b7b5f8709619406b1930d0 = L.circleMarker(
+                [39.1513078, -84.4708348],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_e62ac4190fb65f02495458eb186107f9);
+        
+    
+            circle_marker_eec0ddef80b7b5f8709619406b1930d0.bindTooltip(
+                `<div>
+                     Xavier University (1 alumni)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
