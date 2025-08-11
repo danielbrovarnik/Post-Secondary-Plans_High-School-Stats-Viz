@@ -30,3 +30,8 @@ This project visualizes the post-secondary destinations of my high school alumni
 1. Open [`HS_alum_school_stats.ipynb`](HS_alum_school_stats.ipynb) in Jupyter.
 2. Run all cells to process data and generate the map.
 3. Open [`schools_map.html`](schools_map.html) in your browser to view the interactive map.
+
+## Limitations
+
+- **School Names May Not Be Unique:** Some institutions have multiple campuses or locations (e.g., Culinary Institute of America in Texas and New York). The data and map may not distinguish between these, and geocoding may place markers at only one location.
+- **Geocoding Accuracy:** Automated geocoding may not always find the correct campus, especially for schools with similar names or multiple branches.
