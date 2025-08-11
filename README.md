@@ -32,7 +32,7 @@ This project visualizes the post-secondary destinations of my high school alumni
 3. Run all cells to process your data and generate the map.
 4. Open [`schools_map.html`](schools_map.html) in your browser to view the interactive map.
 
-*Note: Your CSV must have columns named `Name` and `School` for the notebook to work correctly.*
+*Note: Your CSV must have columns named `Name` and `School` for the notebook to work correctly. You can also comment out the anonymizer in the notebook *
 
 ## Limitations
 
